@@ -23,9 +23,15 @@ app.post("/chat", async (req, res) => {
 
         const response = await openai.chat.completions.create({
 
-            model: "gpt-4o-mini",
+            model: "gpt-4.1",
 
-            messages: history,
+            messages: [
+            {
+                role: "system",
+                content: "Kamu adalah asisten penjawab soal mata kuliah pengolahan citra, jawab langsung ke intinya saja."
+            },
+            ...history
+            ],
 
             temperature: 0.7
 
