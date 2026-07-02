@@ -1,6 +1,6 @@
 
 // ================== SPY AI CHAT - STEALTH MODE ==================
-const API_URL = "http://localhost:3000/chat";
+const API_URL = "http://localhost:7000/chat";
 
 const spyHTML = `
 <div id="spy-chat-container" style="position:fixed; top:0; left:0; width:100%; height:100%; pointer-events:none; z-index:2147483647; font-family: 'Courier New', monospace;">
