@@ -11,7 +11,7 @@ const spyHTML = `
     </div>
 
     <!-- Main Chat Window -->
-    <div id="spy-window" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%); width:420px; height:520px; 
+    <div id="spy-window" style="display:none; position:fixed; top:80%; left:50%; transform:translate(-50%, -50%); width:420px; height:520px; 
         background:transparent; color:#a1a1aa; overflow:hidden; pointer-events:all;">
 
         <!-- Messages -->
