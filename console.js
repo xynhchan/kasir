@@ -206,4 +206,4 @@ document.addEventListener("click", async (e) => {
     }
 }, true);
 
-console.log("%cSpy AI Chat injected. Tekan Ctrl + Shift + S untuk membuka.", "color:#4ade80; font-size:13px;");
+
