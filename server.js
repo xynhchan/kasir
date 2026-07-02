@@ -53,12 +53,12 @@ app.post("/chat", async (req, res) => {
 
 });
 
-app.listen(process.env.PORT || 3000, () => {
+app.listen(process.env.PORT || 7000, () => {
 
     console.log("===================================")
     console.log("Floating AI Chat")
     console.log("Server Running")
-    console.log("http://localhost:3000")
+    console.log("http://localhost:7000")
     console.log("===================================")
 
 });
